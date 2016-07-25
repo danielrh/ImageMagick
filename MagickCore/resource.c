@@ -470,7 +470,7 @@ MagickExport MagickBooleanType GetPathTemplate(char *path)
   return(MagickTrue);
 }
 
-MagickExport int AcquireUniqueFileResource(char *path)
+MagickExport int AcquireUniqueFileResource_DEPRECATED(char *path)
 {
 #if !defined(O_NOFOLLOW)
 #define O_NOFOLLOW 0

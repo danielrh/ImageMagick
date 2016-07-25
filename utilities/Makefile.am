@@ -23,7 +23,7 @@ UTILITIES_XFAIL_TESTS = \
 
 utilities_magick_LDADD	= $(MAGICKCORE_LIBS) $(MAGICKWAND_LIBS)
 utilities_magick_LDFLAGS	= $(LDFLAGS)
-utilities_magick_SOURCES	= utilities/magick.c
+utilities_magick_SOURCES	= utilities/magick.c utilities/memmgr.c
 
 UTILITIES_MANS = \
 	utilities/ImageMagick.1 \

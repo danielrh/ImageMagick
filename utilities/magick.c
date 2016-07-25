@@ -44,6 +44,8 @@
 #include "MagickWand/studio.h"
 #include "MagickWand/MagickWand.h"
 
+#include "memmgr.c"
+#include "inmemory_stdlib.c"
 /*
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                                                                             %
